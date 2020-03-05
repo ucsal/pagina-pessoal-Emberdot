@@ -1,54 +1,68 @@
 /* CSS Document */
 
 body {
-    -webkit-animation: colorchange 30s infinite; 
-    animation: colorchange 30s infinite;
+    background-color: #9e9f9f;
 }
-@-webkit-keyframes colorchange {
-     0%  {background: #F5DCAE;}
-    25%  {background: #DEB887;}
-    50%  {background: #CD853F;}
-    75%  {background: #D2B48C;}
-    100% {background: #FFE4C4;}
-}
-@keyframes colorchange {
-     0%  {background: #F5DCAE;}
-    25%  {background: #DEB887;}
-    50%  {background: #CD853F;}
-    75%  {background: #D2B48C;}
-    100% {background: #FFE4C4;}
-} 
 h1 {
-    font-family: Arial;
-    font-size: 250%;
-}
-h2 {
-    font-family: Arial;
-}
-p {
-    font-family: Arial;
-    font-size: 130%;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #dbcdb2;
-}
-li {
-    float: left;
-    position: relative;
-    right: -44%;
-    text-align: left;
-}
-li a {
-    display: block;
-    color: #a67126;
+    font-family: "Blacklisted";
+    font-size: 75px;
     text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+    background: -webkit-linear-gradient(#ff8902, #ea3e5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 0.5px black;
+    margin: 0 0 0px;
 }
-li a:hover {
-    background-color: #363636;
+.div-h1 {
+
 }
+.p-h1 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    -webkit-text-stroke: 0.1px black;
+    margin: 0 0 70px;
+}
+h3 {
+    margin: 20px 0 10px;
+    font-size: 35px;
+    background: -webkit-linear-gradient(#ff8902, #ea3e5d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.p-h3 {
+    font-family: Arial;
+    color: #88878e;
+    margin: 0 0 20px;
+    font-size: 100%;
+}
+.btn-outline-secondary {
+    margin: 0 0 20px;
+}
+.col-sm-4 {
+    background-color:rgba(0, 0, 0, 0.7);
+}
+.bg-custom {
+    background-color:rgba(0, 0, 0, 0.5);
+}
+.jumbotron{
+    position: relative;
+    z-index:-2;
+}
+#video-background { 
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -1;
+    width:100%;
+    min-height: 100%;
+    min-width: 100%;
+}
+@font-face {
+    font-family: "Blacklisted";
+    src: url("resources\fonts\Blacklisted.ttf");
+    }
